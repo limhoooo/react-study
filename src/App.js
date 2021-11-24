@@ -19,6 +19,10 @@ class App extends Component {
     }
   }
   render() {
+    // if (this.state.mode === 'welcome') {
+    // }
+    // else id(this.state.mode === 'read'){ }
+
     return (
       <div className="App">
         <Subject state={this.state} />
