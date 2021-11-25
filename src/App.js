@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       mode: 'welcome',
       subject: { title: 'WEB', sub: 'world wide web' },
-      welcome: { title: 'welcome', desc: 'hello react' },
+      welcome: { title: 'welcome', desc: 'Hello react' },
       content: [
         { id: 1, title: 'HTML', desc: 'HTML is 1' },
         { id: 2, title: 'Css', desc: 'Css is 2' },
@@ -19,9 +19,10 @@ class App extends Component {
     }
   }
   render() {
-    // if (this.state.mode === 'welcome') {
-    // }
-    // else id(this.state.mode === 'read'){ }
+    let _title, _desc = null;
+    if (this.state.mode === 'welcome') {
+    }
+    else if (this.state.mode === 'read') { }
 
     return (
       <div className="App">
